@@ -1,0 +1,28 @@
+.search-result-container {
+    height: 380px;
+    background: #fff;
+    overflow-y: auto;
+}
+.search-result-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: "#fff";
+    margin-bottom: 10px;
+    background: #194670;
+    padding: 10px;
+    cursor: pointer;
+    color: #fff;
+    opacity: 0.8;
+    transition: 0.2s ease-in-out;
+}
+.search-result-box:hover {
+    opacity: 1;
+}
+::-webkit-scrollbar-thumb {
+    background: #129fff;
+    border-radius: 1px;
+}
+::-webkit-scrollbar {
+    width: 20px;
+}
